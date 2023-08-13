@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <unistd.h>
 
 /**
  * main - Entry point
@@ -8,7 +7,7 @@
 int main(void)
 {
 	int letter;
-		
+
 	for (letter = 'a'; letter <= 'z'; letter++)
 	{
 		if (letter != 'q' && letter != 'e')
