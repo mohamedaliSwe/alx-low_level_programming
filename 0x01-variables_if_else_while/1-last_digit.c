@@ -3,9 +3,8 @@
 #include <stdio.h>
 
 /**
- * main
- * 
- * Return: Always 0 (Success)
+ * main - Entry point
+ * Return: Always 1 (Success)
  */
 int main(void)
 {
