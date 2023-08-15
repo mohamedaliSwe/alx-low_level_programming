@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
-*main - function prints text as output
-*
-*Return:return 0
+*print_alphabet - Prints the alphabet followed by a new line
 */
 void print_alphabet(void)
 {
