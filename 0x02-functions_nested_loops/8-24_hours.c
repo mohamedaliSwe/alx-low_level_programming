@@ -6,11 +6,11 @@
 */
 void jack_bauer(void)
 {
-	int hours;
+	int hours = 0;
 
 	while (hours < 24)
 	{
-		int minutes;
+		int minutes = 0;
 
 		while (minutes < 60)
 		{
