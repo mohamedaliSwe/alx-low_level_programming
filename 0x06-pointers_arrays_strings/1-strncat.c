@@ -1,17 +1,18 @@
 #include "main.h"
 
 /**
- * _strncat - concatenates two strings
+ * _strncat: a function that concatenates two strings
  * using at most n bytes from src
- * @dest - input value
- * @src - output value
- * @n input value
- * return dest
+ * @dest: this is the input value
+ * @src: this is output value
+ * @n: input value
+ * Return dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int i, j;
-
+	int i;
+	int j;
+	
 	i = 0;
 	while (dest[i] != '\0')
 	{
