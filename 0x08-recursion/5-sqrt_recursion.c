@@ -13,6 +13,12 @@ int _sqrt_recursion(int n)
 	return (checkroot(n, 0));
 }
 
+/**
+ *checkroot - a function that check for the true square root of a number
+ *@n: input value
+ *@i: current value you're checking
+ *Return: Always 0 (Success)
+ */
 int checkroot(int n, int i)
 {
 	if (i * i > n)
