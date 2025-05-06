@@ -29,15 +29,10 @@ int palindrome_helper(char *str, int left, int right)
  */
 int str_len(char *str)
 {
-	int len;
-
-	len = 0;
-
-	while (str[len] != '\0')
-	{
-		len++;
-	}
-	return (len);
+	if (*str == '\0')
+		return (0);
+	else
+		return (1 + str_len(str + 1));
 }
 
 /**
